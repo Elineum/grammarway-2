@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+input, textarea {
+    font-family: 'Poppins', sans-serif;
+    padding: 3px;
+}
+
+.task-table, .task-fill, .task-table-custom {
+    margin-bottom: 30px;
+}
+
+main > section > h2, main > section > h3 {
+    text-align: center;
+}
+
+.task-table table {
+    margin: 0 auto;
+}
+
+.tasks, .description {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.description {
+    text-align: center;
+}
+
+ol, ul {
+    max-width: 600px;
+    text-align: start;
+    margin: 0 auto;
+}
+
+.tasks > div > h3 {
+    text-align: center;
+    margin: 0 auto;
+}
